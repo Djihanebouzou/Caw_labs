@@ -1,0 +1,83 @@
+*{
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+body{
+    background-color: #f4f4f4;
+}
+h1,h2{
+    position:center;
+    color: #336699;
+}
+p{
+    margin-bottom: 1em;
+}
+#special{
+    background-color: #fffacd;
+    
+    padding :10px;
+}
+.hello{
+    color:green;
+    font-weight: bold;
+
+}
+div.main.content > h2,
+div.ai-tools > h2 {
+    text-transform: uppercase;
+} /* the > for the direct elements*/
+
+div.ai-tools li {
+    list-style-type: square;
+} /*the space for all elements */
+
+div.ai-tools ul {
+    padding-left: 20px;
+}
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* Target li elements inside div.ai-tools that also have class "hello" */
+div.ai-tools li.hello {
+    font-style: italic;
+}
+
+/* Target h1 inside footer and make it smaller */
+footer h1 {
+    font-size: 1.2em;
+}
+
+/* General rule for all h1 elements */
+h1 {
+    font-size: 2em;
+}
