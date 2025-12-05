@@ -40,3 +40,82 @@
 .read-the-docs {
   color: #888;
 }
+<<<<<<< HEAD
+=======
+
+.button form {
+    max-width: 360px;
+    margin: 12px 0;
+    padding: 14px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    display: grid;
+    gap: 10px;
+}
+
+.button form input[type="text"],
+.button form input[type="password"],
+.button form input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button form button[type="submit"] {
+    padding: 8px 12px;
+    background: #2b6ef6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button form button[type="submit"]:hover {
+    background: #1f57d1;
+}
+
+.button ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0 0;
+}
+
+.button ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.button ul li button {
+    background: #ff5b5b;
+    color: #fff;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button ul li button:hover {
+    background: #e04444;
+}
+
+/* optional small-screen tweak */
+@media (max-width: 480px) {
+    .button form { padding: 10px; }
+    .button form input { font-size: 13px; }
+}
+
+
+
+>>>>>>> 52dfa2f (Lab 5)
